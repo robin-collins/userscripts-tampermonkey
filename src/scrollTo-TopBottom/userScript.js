@@ -1,3 +1,5 @@
+
+
 // ==UserScript==
 // @name         Scroll To Top & Bottom
 // @namespace    http://tampermonkey.net/
@@ -96,25 +98,25 @@
     // Attach arrow click event listeners
     arrowUp.addEventListener('click', scrollToTop);
     arrowDown.addEventListener('click', scrollToBottom);
-
     // Attach flip button
     let flipButton = document.createElement('button');
     flipButton.textContent = 'Flip Colors';
     flipButton.style.position = 'fixed';
     flipButton.style.right = '32px';
     flipButton.style.top = '50%';
-    flipButton.style.transform = 'translateY(-50%)';
+    flipButton.style.transform = 'transl.ateY(-50%)';
     flipButton.style.zIndex = '99999';
     // Listen for clicks on the flip button
     flipButton.addEventListener('click', () => {
-      // Switch the arrow colors
-      arrowColor = !arrowColor;
-      arrowUp.style.fill = arrowColor;
-      arrowDown.style.fill = arrowColor;
+    // Switch the arrow colors
+    arrowColor = !arrowColor;
+    arrowUp.style.fill = arrowColor;
+    arrowDown.style.fill = arrowColor;
     });
     // Insert the flip button after the first arrow
     document.appendChild(flipButton);
     
+
 
     function isLight(color) {
         let r, g, b, hsp;
@@ -133,3 +135,4 @@
         return hsp>127.5;
     }
 })();
+
