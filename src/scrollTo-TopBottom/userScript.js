@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Scroll To Top & Bottom
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      0.7
 // @description  Adds up and down arrows to scroll to top and bottom of page
 // @author       TheBloke-vicuna-v1.5-16k-13b-q5_k_s.gguf and gpt4
 // @match        *://*/*
+// @downloadURL  https://raw.githubusercontent.com/robin-collins/userscripts-tampermonkey/main/src/scrollTo-TopBottom/userScript.js
+// @updateURL    https://raw.githubusercontent.com/robin-collins/userscripts-tampermonkey/main/src/scrollTo-TopBottom/userScript.js
 // ==/UserScript==
 
 (function() {
