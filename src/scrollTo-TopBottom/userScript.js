@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Scroll To Top & Bottom
 // @namespace    http://tampermonkey.net/
-// @version      0.8
+// @version      0.9
 // @description  Adds up and down arrows with toggle colors
 // @author       TheBloke-vicuna-v1.5-16k-13b-q5_k_s.gguf and gpt4
 // @match        *://*/*
